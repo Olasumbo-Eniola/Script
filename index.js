@@ -4,7 +4,6 @@ let data = [
     {principal: 3000, time: 1},
     {principal: 2000, time: 3}
     ];
-    //function to calculate interest
     function interestCalculator(data){
         
     let interestData=[];
@@ -59,5 +58,5 @@ let data = [
     console.log(interestData);
     return interestData;
     }
-    //this calls the function
+
     interestCalculator(data);
