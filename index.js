@@ -7,12 +7,12 @@ let data = [
     function interestCalculator(data){
         
     let interestData=[];
-    for (let i = 0; i < data.length; i++) {
+    for (let x = 0; x < data.length; x++) {
     let interest = '';
     let rate = 0;
     let myInterest = {};
-    let principal = data[i].principal;
-    let time = data[i].time;
+    let principal = data[x].principal;
+    let time = data[x].time;
     if(principal >= 2500 && time > 1 && time <= 3){
     rate = 3;
     interest = (principal * rate * time) / 100;
